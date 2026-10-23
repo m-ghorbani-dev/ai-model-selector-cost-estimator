@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Build, test, and coverage artifacts
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# Model weights and checkpoints (often large)
+*.safetensors
+*.gguf
+*.pt
+*.pth
+*.ckpt
+models/
+checkpoints/
+
+# Local databases and temporary files
+*.sqlite
+*.sqlite3
+*.db
+tmp/
+temp/
