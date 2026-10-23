@@ -1,50 +1,38 @@
 # Python
 __pycache__/
 *.py[cod]
-*$py.class
-.Python
 .venv/
 venv/
 env/
-ENV/
-
-# Jupyter
-.ipynb_checkpoints/
 
 # Secrets and local configuration
 .env
 .env.*
 !.env.example
 
-# Editor and OS files
+# Editors and operating systems
 .vscode/
 .idea/
 .DS_Store
 Thumbs.db
 
-# Build, test, and coverage artifacts
-build/
-dist/
-*.egg-info/
+# Test and build artifacts
 .pytest_cache/
 .coverage
 htmlcov/
+build/
+dist/
+*.egg-info/
 
-# Logs
+# Generated report and logs
+report.md
 *.log
 
-# Model weights and checkpoints (often large)
-*.safetensors
+# Large model files and checkpoints
 *.gguf
+*.safetensors
 *.pt
 *.pth
 *.ckpt
 models/
 checkpoints/
-
-# Local databases and temporary files
-*.sqlite
-*.sqlite3
-*.db
-tmp/
-temp/
