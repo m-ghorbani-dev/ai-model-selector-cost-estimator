@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Local Small (Ollama)",
+    "provider": "local",
+    "tasks": [
+      "summarization",
+      "qa",
+      "content",
+      "coding"
+    ],
+    "ram_gb": 8,
+    "context_tokens": 8192,
+    "input_price": 0.0,
+    "output_price": 0.0
+  },
+  {
+    "name": "Local Medium (Ollama)",
+    "provider": "local",
+    "tasks": [
+      "summarization",
+      "qa",
+      "content",
+      "coding"
+    ],
+    "ram_gb": 16,
+    "context_tokens": 32768,
+    "input_price": 0.0,
+    "output_price": 0.0
+  },
+  {
+    "name": "Cloud Economy",
+    "provider": "cloud",
+    "tasks": [
+      "summarization",
+      "qa",
+      "content"
+    ],
+    "ram_gb": 0,
+    "context_tokens": 128000,
+    "input_price": 0.2,
+    "output_price": 0.8
+  },
+  {
+    "name": "Cloud Balanced",
+    "provider": "cloud",
+    "tasks": [
+      "summarization",
+      "qa",
+      "content",
+      "coding"
+    ],
+    "ram_gb": 0,
+    "context_tokens": 200000,
+    "input_price": 2.0,
+    "output_price": 8.0
+  },
+  {
+    "name": "Cloud Coding",
+    "provider": "cloud",
+    "tasks": [
+      "coding"
+    ],
+    "ram_gb": 0,
+    "context_tokens": 128000,
+    "input_price": 1.5,
+    "output_price": 6.0
+  }
+]
